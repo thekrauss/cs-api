@@ -295,9 +295,3 @@ func (p *RedisTaskProcessor) registerHandlers() {
     p.mux.HandleFunc(wsales.TypeCloseWeek, salesHandler.HandleCloseWeekTask)
 }
 ```
-
-## 12) Bénéfices
-
-- Noms alignés avec le métier Bene Bono.
-- Flux lisible du endpoint jusqu'à la DB.
-- Wiring centralisé et facile à maintenir.
