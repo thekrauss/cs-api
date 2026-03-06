@@ -67,7 +67,7 @@ Sous-jobs :
 2. `finalize_cart_to_order_job`
 3. `export_orders_wms_job`
 
-### Exemple d'implémentation (comme ton style actuel)
+### Exemple d'implémentation 
 
 Ces extraits montrent le pattern concret :
 - un processor central qui enregistre les handlers,
@@ -221,7 +221,7 @@ func (h *InventoryTaskHandler) HandleInventorySyncTask(ctx context.Context, t *a
 - `PATCH /carts/{id}/items/{itemId}`
 - `POST /sales-weeks/{id}/close`
 
-## 5) Découpage de code recommandé
+## 5) Découpage de code 
 
 Dans chaque module :
 - `handler` (HTTP),
