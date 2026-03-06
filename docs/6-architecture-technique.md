@@ -31,9 +31,6 @@ Avantages :
 
 ```text
 catalog/
-├── doc_ai_kb.md
-├── doc_marketing.md
-├── doc_technique.md
 ├── hcatalog.go
 ├── repository
 │   ├── collection.go
